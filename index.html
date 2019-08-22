@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Company</title>
+    <meta name="description" content="PhantomFX HUB portal">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./source/fontawesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <script src="./source/Jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="parent-flex-container">
+        <div class="main-container flex-item">
+            <header class="head-section">
+                <div>
+                    <img class="company-logo" alt="PhantomFX Logo" width="35" height="30"
+                        src="./source/images/Logo.png">
+                    <h3 class="company-name">PHANTOMFX HUB</h3>
+                </div>
+            </header>
+            <main class="main-section">
+                <div class="btn-container">
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+
+                            <i class="fa fa-file-invoice"></i>
+                        </button>
+                        <p class="btn-name">Create Project</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-clipboard-list"></i>
+                        </button>
+                        <p class="btn-name">Scope Organiser</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="far fa-eye"></i>
+                        </button>
+                        <p class="btn-name">Render viewer</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-server"></i>
+                        </button>
+                        <p class="btn-name">Database Viewer</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-globe"></i>
+                        </button>
+                        <p class="btn-name">Set Environment</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-folder-open"></i>
+                        </button>
+                        <p class="btn-name">Data Entry</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-bezier-curve"></i>
+                        </button>
+                        <p class="btn-name">Shot Track</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-ticket-alt"></i>
+                        </button>
+                        <p class="btn-name">Shot Track Ticket</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-desktop"></i>
+                        </button>
+                        <p class="btn-name">Help Ticket</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-wifi"></i>
+                        </button>
+                        <p class="btn-name">Internet Login</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fas fa-address-card"></i>
+                        </button>
+                        <p class="btn-name">PFX HR</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fa fa-home"></i>
+                        </button>
+                        <p class="btn-name">PFX Home</p>
+                    </div>
+                    <div class="btn-holder">
+                        <button class="rounded-btn">
+                            <i class="fab fa-blogger-b"></i>
+                        </button>
+                        <p class="btn-name">PFX Blog</p>
+                    </div>
+                </div>
+            </main>
+            <footer class="foot-section">
+                <div>
+                    <p>PIPELINE </p>
+                    <span> | </span>
+                    <p> PIPELINE DEVELOPER</p>
+                </div>
+                <div>
+                    <i class="fa fa-user-circle"></i>
+                    <p>JERLIN</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('.btn-holder').click(function (event) {
+                var selectedVal = $(this).children('p.btn-name').text();
+                console.log(`Jerlin Selected ${selectedVal}; `);
+                alert(`You have selected ${selectedVal}`);
+            });
+        });
+    </script>
+</body>
+
+</html>
