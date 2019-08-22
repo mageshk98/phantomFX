@@ -78,6 +78,7 @@ html {
 
 ::-webkit-scrollbar-track {
     background-color: #f0f0f0;
+    border-radius: 3px;
 }
 
 .btn-container {
@@ -179,5 +180,6 @@ footer.foot-section>div span {
 
     .main-section {
         top: 75px;
+        bottom: 75px;
     }
 }
